@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in - W3Schools</title>
+    <link rel="icon" href="./assets/w3schools-logo-icon.svg" />
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div></div>
+
+    <nav >
+        <a href="https://www.w3schools.com/" class="nav__logo">
+            <img
+                src="./assets/w3schools-logo-icon.svg"
+                alt="W3Schools Logo"
+                class="nav_icon"
+            
+            />
+        </a>
+        <a href="https://www.w3schools.com/" class="Cross_logo">
+            <img src="./assets/cross.png" alt="Cross_icon" class="cross_icon"
+            >
+        </a>
+    </nav>
+    <!-- Signup Form -->
+    <main id="main__box">
+        
+        <div class="main__container">
+            <h1 class="login_size">Log in</h1>
+            <form class="main__form">
+                <label for="email">
+                    <div class="label_sign">
+                        <p><strong>Email</strong></p>
+                        <p>Need an account?&nbsp <a href="#" class="acc_signup">Sign up</a></p>
+                    </div>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"                       
+                    />
+                </label>
+
+            
+                <label for="password">
+                    <div class="label_sign">
+                        <p><strong>Password</strong></p>
+                        <p> &#x1F441 Show</p>
+                    </div>
+                    
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                    />
+                </label>
+            <br>
+            <button type="submit" id="signup__button">
+                Log in
+            </button>
+            <p class="forgot_password">
+                <a href="#" class="forgot_password">Forgot Password?</a>
+            </p>
+        </div>
+    </main>
+
+    <!-- Form entries -->
+    <table id="table" class="container">
+        <tr>
+            <th>S. No.</th>
+            <th>Email</th>
+            <th>Password</th>
+        </tr>
+    </table>
+
+
+    <footer>
+        
+        <ul>
+            <li id="footer_font_color">
+                <p>&copy; 1999-2022 
+                <a href="https://www.w3schools.com/">W3Schools</a>.
+                All rights reserved.
+                <a href="#">Cookie policy</a>,
+                <a href="#">Privacy</a>
+                and
+                <a href="#">Terms</a>.
+                </p>
+            </li>
+        </ul>
+        <button type="button" id="help__button">
+            <div><img src="./assets/question.png" alt="question_mark" id="help__img"></div>
+            <div>&nbsp&nbsp</div>
+            <div>Help</div>
+        </button>
+        
+
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

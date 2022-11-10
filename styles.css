@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+* {
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#main__box{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	font-family: 'Source Sans Pro', sans-serif;
+    border: 1px;
+}
+
+#nav_bar {
+    
+    display: flex;
+    justify-content: space-between;
+
+
+}
+footer > ul{
+    text-align: center;
+}
+
+
+.nav__logo {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    
+}
+.Cross_logo{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    
+}
+.cross_icon{
+    width: 25px;
+}
+.nav_icon {
+	width: 38px;
+}
+
+a {
+	/*text-decoration: none;*/
+	transition: all 100ms;
+	color: #74747b;
+}
+
+a:hover {
+	text-decoration: underline;
+    color: #04AA6D;
+}
+
+button {
+	font-weight: 500;
+    background-color: #04AA6D;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;
+}
+
+.main__container {
+	width: 35%;
+    height: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+	background-color: #ffffff;
+	padding: 4em;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #e3e3e3;
+	border-radius: 20px;
+    border-width: 1px;
+}
+
+.login_size {
+    color: #282a35;
+    font-size: 29px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.main__form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5em;
+	text-align: left;
+}
+
+.main__form label {
+	width: 100%;
+}
+
+.main__form input {
+	width: 100%;
+	padding: 1.5em;
+    border: solid 1px #e3e3e3;
+	border-radius: 8px;
+	margin-top: 4px;
+}
+
+.forgot_password{
+    text-align: center;
+}
+.label_sign {
+    display: flex;
+    justify-content: space-between;
+}
+.acc_signup {
+    color: #04AA6D;
+    text-decoration: none;
+}
+
+#help__img {
+	width: 30px;
+
+}
+
+#help__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+
+}
+table {
+	border-collapse: collapse; 
+}
+
+table,
+th,
+td {
+	border: solid 1px #818181;
+	text-align: center;
+	padding: 0.25em;
+}
+
+#help_border{
+    border: solid 1px #04AA6D;
+}
+
+button {
+    cursor: pointer;
+}
+
+#footer_font_color {
+    color: #74747b;
+}
+
